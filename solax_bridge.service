@@ -1,0 +1,12 @@
+[Unit]
+Description=Solax bridge
+After=network-online.target
+
+[Service]
+User=gustavo
+Restart=on-failure
+RestartSec=5s
+ExecStart=/home/gustavo/solax_mqtt_bridge/bin/python3 /home/gustavo/solax_mqtt_bridge/main.py
+
+[Install]
+WantedBy=multi-user.target
