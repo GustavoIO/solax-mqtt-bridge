@@ -1,2 +1,2 @@
 solax @ git+https://github.com/GustavoIO/solax-add-x1-hybrid-5@master
-paho-mqtt
+paho-mqtt<2.0.0
